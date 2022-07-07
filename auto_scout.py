@@ -5,9 +5,12 @@ from PIL import Image
 import sklearn as sklearn
 import pickle
 
+st.set_page_config(layout="wide")
 image = Image.open("Automarkt.png")
 st.image(image,width=1400)
 st.title('Car Price Prediction')
+
+
 
 mlmodel = st.selectbox('Please select the maschine learning model',['LineerRegression','RandomForest','XGBoost'])
 
