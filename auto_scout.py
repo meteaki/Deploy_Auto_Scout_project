@@ -6,7 +6,7 @@ import sklearn as sklearn
 import pickle
 
 image = Image.open("Automarkt.png")
-st.image(image,width=100)
+st.image(image,width=1400)
 st.title('Car Price Prediction')
 
 mlmodel = st.selectbox('Please select the maschine learning model',['LineerRegression','RandomForest','XGBoost'])
