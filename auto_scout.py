@@ -2,10 +2,10 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image
-import sklearn
+import sklearn as sklearn
 import pickle
 
-image = Image.open("img.jpg")
+image = Image.open("Automarkt.png")
 st.image(image,width=100)
 st.title('Car Price Prediction')
 
