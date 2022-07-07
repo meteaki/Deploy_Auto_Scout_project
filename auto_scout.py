@@ -8,9 +8,8 @@ import pickle
 st.set_page_config(layout="wide")
 image = Image.open("Automarkt.png")
 st.image(image,width=1400)
-st.title('Car Price Prediction')
 
-st.markdown("<h1 style='text-align: center; color: black;'>Employee Churn Analysis</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Car Price Prediction</h1>", unsafe_allow_html=True)
 
 st.info('**Goal of Project is building a price prediction model using features for different makes and models, trought application of machine learning models (linear regression, random forest, XGBoost) with feature engineering and comparison of scores.**')
 
